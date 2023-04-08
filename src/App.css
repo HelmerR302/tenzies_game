@@ -37,6 +37,7 @@ main {
   font-weight: var(--description-font-bold);
   color: var(--font-color-dark);
   text-align: center;
+  width: 80%;
 }
 
 .description > p {
