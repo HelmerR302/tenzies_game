@@ -4,7 +4,7 @@ How to play:
 
 Roll, click dice with same number to freeze them. Roll again, freeze more dice, untill all frozen dice are the same.
 
-## Screenshot ![Preview]()
+## Screenshot ![Preview](https://github.com/HelmerR302/tenzies_game/blob/main/tenzies_preview.png?raw=true)
 
 ## Live link:
 
