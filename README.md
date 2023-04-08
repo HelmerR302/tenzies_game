@@ -8,7 +8,7 @@ Roll, click dice with same number to freeze them. Roll again, freeze more dice, 
 
 ## Live link:
 
-Live Site URL:
+Live Site URL: https://steady-brigadeiros-c41128.netlify.app/
 
 ## Tech stacks
 
