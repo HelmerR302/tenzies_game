@@ -1,0 +1,107 @@
+:root {
+  --main-font-family: "Karla", sans-serif;
+  --main-font-size: 1.2rem;
+  --title-font-size: 2.5rem;
+  --main-font-bold: 700;
+  --description-font-family: "Inter", sans-serif;
+  --description-font-size: 1.1rem;
+  --description-font-bold: 700;
+  --font-color-dark: #2b283a;
+  --orange-color: #ff7b54;
+}
+
+main {
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  margin: auto;
+  max-width: 80%;
+  height: 30rem;
+  padding: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.title {
+  color: var(--font-color-dark);
+  font-family: var(--main-font-family);
+  font-size: var(--title-font-size);
+  font-weight: var(--main-font-bold);
+  margin: 0;
+}
+
+.description {
+  font-family: var(--description-font-family);
+  font-size: var(--description-font-size);
+  font-weight: var(--description-font-bold);
+  color: var(--font-color-dark);
+  text-align: center;
+}
+
+.description > p {
+  margin: 0;
+  padding: 0;
+  line-height: 1.5rem;
+}
+
+.dice-container {
+  display: grid;
+  grid-template: auto auto / repeat(5, 1fr);
+  gap: 1.25rem;
+  width: 80%;
+  margin: 0;
+}
+
+.die-face {
+  border-radius: 8px;
+  background-color: #ffffff;
+  color: var(--font-color-dark);
+  font-family: var(--main-font-family);
+  font-size: var(--main-font-size);
+  font-weight: var(--main-font-bold);
+  height: 50px;
+  width: 50px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-self: center;
+  cursor: pointer;
+}
+
+.round-count {
+  font-family: var(--main-font-family);
+  font-size: 1.5rem;
+  font-weight: var(--main-font-bold);
+  color: var(--orange-color);
+  margin: 1.2rem 0;
+  line-height: 0;
+}
+
+.roll-button {
+  border-radius: 8px;
+  border: none;
+  box-shadow: 0px 3.2px 7.68px rgba(0, 0, 0, 0.18);
+  padding: 10px;
+  font-family: var(--main-font-family);
+  font-size: var(--main-font-size);
+  font-weight: var(--main-font-bold);
+  color: #ffffff;
+  padding: 0.8rem 3.2rem;
+  cursor: pointer;
+}
+
+.roll-button:active {
+  box-shadow: inset 5px 5px 10px -3px rgba(0, 0, 0, 0.3);
+}
+
+.message-alert {
+  font-family: var(--description-font-family);
+  font-size: 1 rem;
+  font-weight: var(--description-font-bold);
+  color: var(--font-color-dark);
+  line-height: 0;
+  margin: 0;
+  padding: 0.8rem 0 0 0;
+}
